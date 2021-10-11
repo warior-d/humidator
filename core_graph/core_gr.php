@@ -39,7 +39,7 @@ $humi = $result['0']['humidity'];
 
 
 $date =  date('d.m.Y H:i:s', $result['0']['date_linux']);
-$date_diff = time() - $result['0']['date_linux']; 
-
+$date_diff = time() - $result['0']['date_linux'];
+$date_diff = $date_diff."hhh";
 
 ?>
