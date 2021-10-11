@@ -22,7 +22,7 @@ function getData(){
 }
  */
  
-require_once './connection.php';
+/* require_once './connection.php';
 
 $dbconn = pg_connect("host=".$host." dbname=".$database." user=".$user." password=".$password);
 
@@ -40,6 +40,6 @@ $humi = $result['0']['humidity'];
 
 $date =  date('d.m.Y H:i:s', $result['0']['date_linux']);
 $date_diff = time() - $result['0']['date_linux'];
-$date_diff = $date_diff."hhh";
+$date_diff = $date_diff."hhh"; */
 $test = 'jopa';
 ?>
