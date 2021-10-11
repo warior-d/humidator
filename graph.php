@@ -19,7 +19,7 @@
         <script src="scripts/jQuery.js"></script>
 	</head>
 	<body>
-	    <div id = "lastSyncDate">Последняя синхронизация: <?php echo $date;?> (<?php echo $date_diff;?> секунд назад)</div>
+	    <div id = "lastSyncDate">Последняя синхронизация: <?php echo $date;?> (<?php echo $date_diff;?> секунд назад  <?php echo $test;?>)</div>
 	    <br>
 	    <table border = "0" align="center">
 	        <tr>
