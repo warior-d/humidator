@@ -22,7 +22,7 @@ function getData(){
 }
  */
  
-require_once '../connection.php';
+require_once './connection.php';
 
 $dbconn = pg_connect("host=".$host." dbname=".$database." user=".$user." password=".$password);
 
