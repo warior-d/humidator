@@ -1,6 +1,12 @@
 <html>
 	<head>
-	    <?php require_once "core_graph/core_gr.php"; ?>
+	    <?php 
+if (include('core_graph/core_gr.php') == TRUE) {
+echo 'OK';
+} else {
+echo 'BAD';
+}
+		?>
 		<meta charset="UTF-8">
 		<title>Температура и влажность</title>
 		<link rel="stylesheet" href="scripts/amcharts/index.css" />
